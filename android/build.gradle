@@ -17,7 +17,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "${project.ext.buildToolsVersion}"
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         minSdkVersion 16
@@ -36,6 +36,6 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.android.support:customtabs:23.+'
+    implementation "com.android.support:customtabs:23.0.1"
 }
 
